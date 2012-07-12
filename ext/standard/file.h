@@ -115,7 +115,8 @@ typedef struct _php_meta_tags_data {
 php_meta_tags_token php_next_meta_token(php_meta_tags_data * TSRMLS_DC);
 
 typedef struct {
-  	int pclose_ret;
+	int pclose_ret;
+	int pclose_wait;
 	size_t def_chunk_size;
 	long auto_detect_line_endings;
 	long default_socket_timeout;

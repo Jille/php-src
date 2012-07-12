@@ -10,6 +10,7 @@ PHP                                                                        NEWS
   . Add support for using empty() on the result of function calls and
     other expressions (https://wiki.php.net/rfc/empty_isset_exprs).
     (Nikita Popov)
+  . Implemented FR #46487 (Dereferencing process-handles no longer waits on those processes). (Jille Timmermans)
 
 - Core:
   . Added boolval(). (Jille Timmermans).
